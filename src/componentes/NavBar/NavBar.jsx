@@ -12,8 +12,12 @@ function navBar() {
                 </div>
                 <ul>
                     <li>
-                        <a href="#">Tienda</a>
+                        <a href="#">Inicio</a>
                         <span className='active'></span>
+                    </li>
+                    <li>
+                        <a href="#">Tienda</a>
+                        <span className='no-active'></span>
                     </li>
                     <li>
                         <a href="#">Nosotros</a>
