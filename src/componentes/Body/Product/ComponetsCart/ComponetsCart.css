@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+div p.precio{
+    color: #B16927;
+}
+div p.precioDcsto{
+    color: #B4A186;
+    text-decoration:line-through;
+}
+.containderPrecio{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .625rem;
+}
+.BotonCart {
+    width: 100%;
+    padding: 0 .625rem;
+    
+}
+.BotonCart p{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: centers;
+    padding: .3125rem 1.25rem;
+    border: 1px solid #B16927 ;
+    border-radius: .5rem;
+    color: #B16927;
+}
