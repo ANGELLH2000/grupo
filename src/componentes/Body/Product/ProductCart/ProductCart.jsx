@@ -7,8 +7,9 @@ function ProductCart() {
             <ImagenCart src="" alt="Producto de la tienda"/>
             <p className='NombreProducto'>Lira Eirling</p>
             <PrecioCart precio="20,00" precioDcto="22,00"/>
-            <BotonCart/>
+            <BotonCart outsold="false" agregados="1"/>
         </div>
     )
 }
 export default ProductCart
+

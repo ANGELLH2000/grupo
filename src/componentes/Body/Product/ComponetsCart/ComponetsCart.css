@@ -8,14 +8,17 @@
     font-style: normal;
     font-weight: 500;
 }
-div p.precio{
+
+div p.precio {
     color: #B16927;
 }
-div p.precioDcsto{
+
+div p.precioDcsto {
     color: #B4A186;
-    text-decoration:line-through;
+    text-decoration: line-through;
 }
-.containderPrecio{
+
+.containderPrecio {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -23,19 +26,112 @@ div p.precioDcsto{
     align-items: center;
     gap: .625rem;
 }
-.BotonCart {
+
+.BotonCart,
+.BotonCart2,
+.BotonCart3 {
     width: 100%;
+    height: 2.375rem;
     padding: 0 .625rem;
-    
+
 }
-.BotonCart p{
+
+.BotonCart p {
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: centers;
+    align-items: center;
+    font-size: 1rem;
     padding: .3125rem 1.25rem;
-    border: 1px solid #B16927 ;
+    border: 1px solid #B16927;
     border-radius: .5rem;
     color: #B16927;
+}
+
+.BotonCart3 p {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    padding: .3125rem 1.25rem;
+    border: 1px solid #ABABAB;
+    border-radius: .5rem;
+    color: #ABABAB;
+}
+
+.BotonCart2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.BotonCart2 div {
+    color: #B16927;
+    padding: .625rem 1.25rem;
+    border-radius: .5rem;
+    border: .0625rem solid #B16927;
+    display: flex;
+}
+
+.BotonCart2 p {
+    color: #707070;
+    font-size: 1rem;
+}
+
+
+.EtiquetaCart {
+    position: absolute;
+    top: .625rem;
+    left: .625rem;
+    padding: .125rem .625rem;
+    border-radius: .25rem;
+    font-size: .75rem;
+    background-color: transparent;
+    color: transparent;
+}
+
+.dscto {
+    background-color: #B16927;
+    color: white;
+}
+
+.nuevo {
+    background-color: white;
+    color: black;
+}
+
+.agotado {
+    background-color: #D8D8D8;
+    color: black;
+}
+
+.punidades {
+    background-color: #D44012;
+    color: white;
+}
+
+.ImagenCart {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    /* Asegura que el contenido no se desborde */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+}
+
+.ImagenCart img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Asegura que la imagen cubra todo el div */
+    object-position: center;
+    /* Centra la imagen */
 }

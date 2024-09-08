@@ -1,4 +1,12 @@
 h3{
-    padding: 300px 3%;
+    padding: 100px 3%;
     text-align: center;
+}
+.contenedor{
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
 }
