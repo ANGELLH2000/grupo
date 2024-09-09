@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <ItemListContainer gretting="Bienvenido a la pagina" />
+      <ItemListContainer gretting="Bienvenido a la pagina en GitPage" />
     </>
   )
 }
